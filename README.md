@@ -6,6 +6,10 @@ as the [app.land](https://app.land) cloud solution no longer offers hosting of p
 Concretely, the functionality implemented by the [@appland/appmap](https://www.npmjs.com/package/@appland/appmap) project is taken over 
 and packaged as a NodeJS web application.
 
+## Thanks
+
+Thanks to Kevin Gilpin and the AppMap Slack community (#introductions) for suggesting me the idea of such a technical solution.
+
 ## Getting started
 
 Start the AppMap viewer on local port 3000 with `docker run -it -p 3000:8080 ghcr.io/vondacho/appmap-viewer:latest`.
