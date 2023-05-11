@@ -26,7 +26,7 @@ Use of private hosting on the AppMap viewer server.
 
 Start the AppMap viewer on local port 3000 with `docker run -it -p 3000:8080 -v <local_dir>:/usr/maps ghcr.io/vondacho/appmap-viewer:latest`,
 
-it binds one local directory (`-v $(pwd):/usr/maps`) or (`-v <local_dir>:/usr/maps`) with the hosting directory on the server.
+it binds current local directory (`-v $(pwd):/usr/appmap-viewer/maps`) or one directory on localhost (`-v <absolute_path>:/usr/appmap-viewer/maps`) with the hosting directory on the server.
 
 Depose your AppMap JSON resource into your local directory, and then visualize it from the web browser at 
 `http://localhost:3000/appmap/appmap.html?appmap=/maps/<your_appmap_json>`.
