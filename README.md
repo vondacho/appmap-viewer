@@ -24,7 +24,7 @@ Here is [an example](http://localhost:3000/appmap/appmap.html?appmap=https://von
 
 Use of private hosting on the AppMap viewer server.
 
-Start the AppMap viewer on local port 3000 with `docker run -it -p 3000:8080 -v <local_dir>:/usr/maps ghcr.io/vondacho/appmap-viewer:latest`,
+Start the AppMap viewer on local port 3000 with `docker run -it -p 3000:8080 -v <local_dir>:/usr/appmap-viewer/maps ghcr.io/vondacho/appmap-viewer:latest`,
 
 it binds current local directory (`-v $(pwd):/usr/appmap-viewer/maps`) or one directory on localhost (`-v <absolute_path>:/usr/appmap-viewer/maps`) with the hosting directory on the server.
 
