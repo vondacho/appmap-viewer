@@ -1,7 +1,7 @@
 name: publish release
 
 on:
-  workflow_dispatch: # Allow to manually trigger the pipeline
+  workflow_dispatch:
   release:
     types: [ published ]
 
@@ -32,6 +32,8 @@ jobs:
         uses: docker/metadata-action@v2
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+        tags: |
+          type=semver,pattern={{version}}
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
