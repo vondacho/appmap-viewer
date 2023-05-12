@@ -1,6 +1,25 @@
 {
+  "name": "appmap-viewer",
+  "version": "1.0.0",
+  "description": "Simplistic web server for viewing AppMap resources in a web browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vondacho/appmap-viewer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vondacho/appmap-viewer/issues"
+  },
+  "homepage": "https://github.com/vondacho/appmap-viewer#readme",
   "dependencies": {
     "@appland/appmap": "^3.77.1",
     "express": "^4.18.2"
   }
 }
+
