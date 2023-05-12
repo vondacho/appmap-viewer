@@ -28,7 +28,7 @@ it binds current local directory (`-v $(pwd):/usr/appmap-viewer/maps`) or one di
 Depose your AppMap JSON resource into your local directory, and then visualize it from the web browser at 
 `http://localhost:3000/appmap/appmap.html?appmap=/maps/<your_appmap_json>`.
 
-##### Latest release
+#### Latest release
 Pull [the latest image](https://github.com/vondacho/appmap-viewer/pkgs/container/appmap-viewer) from the GitHub registry.
 
 ### On-cloud
