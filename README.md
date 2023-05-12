@@ -11,9 +11,9 @@ Thanks to Kevin Gilpin and the AppMap Slack community (#introductions) for sugge
 ## Getting started
 
 ### On your local machine
-Pull [the latest image](https://github.com/vondacho/appmap-viewer/pkgs/container/appmap-viewer) from the GitHub registry.
+Pull [the default Docker image](https://github.com/vondacho/appmap-viewer/pkgs/container/appmap-viewer) of the AppMap viewer from the GitHub registry.
 
-Start the AppMap viewer on local port 3000 with `docker run -it -p 3000:8080 ghcr.io/vondacho/appmap-viewer:latest`.
+Then, start the AppMap viewer on local port 3000 with `docker run -it -p 3000:8080 ghcr.io/vondacho/appmap-viewer:latest`.
 
 #### Remote AppMap resources
 Then, visualize your AppMap resource from the web browser at `http://localhost:3000/appmap/appmap.html?appmap=<url_to_your_appmap_json>`.
