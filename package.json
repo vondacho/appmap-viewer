@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@appland/appmap": "^3.77.1",
+    "express": "^4.18.2"
+  }
+}
